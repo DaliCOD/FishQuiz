@@ -177,7 +177,7 @@ document.getElementById("quickquiz").style.margin = "40px"
   var againorstart = document.getElementById("againorstart"); //Tlačítko start slouží dvoum účelům
   counter = 0;
   againorstart.textContent ="Play Again!"; //tlačítko start teď říká "Play again"
-  document.querySelector("#quickquiz").textContent = "Vyhodnocení";  //Nápis rychlokvíz změněn
+  document.querySelector("#quickquiz").textContent = "Shrnutí";  //Nápis rychlokvíz změněn
   document.querySelector("#startbutton").style.backgroundColor = "yellow";
   document.querySelector("#startbutton").style.border = "5px solid black";
     document.querySelector("#skore").textContent; //úkaže výsledné skóre
@@ -197,7 +197,7 @@ else if (skorecko == 4) {
 
 }
 else if(skorecko == 2) {
-obrazek.src = "prumerny.jpg";
+obrazek.src = "Prumerny.jpg";
 poznamka.textContent = "Tvoje znalost ryb je průměrná, zapracuj na ní!"
 document.querySelector("#skore").textContent = "2";
 obrazek.classList.add("width50")
