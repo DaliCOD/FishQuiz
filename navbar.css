@@ -1,0 +1,115 @@
+#ull {
+  height: 40px;;
+  display: block;
+  width: 100%;
+  background-color: white;
+  border-bottom: 4px solid black;
+}
+.fa-bars {
+display: flex;
+font-size: 40px;
+float: right;
+margin-right: 5px;
+
+}
+.fa-bars:hover {
+  cursor: pointer;
+  color: black
+}
+li.phonenavitems {
+
+
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10pX;
+  padding: 5px;
+  color: black;
+  font-family: merriweather;
+  width: 100%;
+  margin: 0
+
+}
+ul#phonenavlist {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+
+  border-bottom: 4px solid black
+}
+.phonenav {
+
+}
+a {
+  color: black;
+  text-decoration: none
+}
+@media only screen and (min-width: 1001px) {
+  .container {
+  width: 100%;
+  display: flex
+  }
+  i.fa-bars {
+    display: none
+  }
+.#phonenav {
+  display: none;
+}
+}
+
+li.navitems:hover {
+  background-color: white;
+
+
+}
+li.navitems {
+  margin: 0 5px;
+text-align: right;
+font-size: 30px;
+font-weight: 600;
+padding-left: 5pX;
+padding-right: 5px
+
+color: black
+  }
+li.phonenavitems a:hover {
+  color: black;
+  cursor: pointer;
+
+}
+li.phonenavitems:hover {
+    background-color: white
+}
+  li.navitems:hover {
+  color: black;
+  cursor: pointer;
+    }
+
+ul.navlist {
+  display: flex;
+  float: right;
+  list-style-type: none;
+  text-align: right;
+  padding-left: 0PX;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+
+}
+@media only screen and (min-width: 1001px) {
+  .container {
+  width: 100%;
+  display: flex
+  }
+  i.fa-bars {
+    display: none
+  }
+#phonenav {
+  display: none;
+}
+}
+@media only screen and (max-width: 1000px) {
+
+#navlist {
+display: none
+}
